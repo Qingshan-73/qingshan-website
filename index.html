@@ -5,6 +5,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>青嵩工坊 · 中西式運動整復推拿中心 | 高雄運動按摩推薦、運動表現提升</title>
 <meta name="description" content="青嵩工坊·中西式運動整復推拿中心,位於高雄市新興區,傳承中式整復推拿三十年經驗,結合運動按摩、動作控制訓練,協助舒緩疲勞、提升運動表現、恢復活力。">
+<meta name="theme-color" content="#33465F">
+<meta property="og:title" content="青嵩工坊 · 中西式運動整復推拿中心 | 高雄運動按摩推薦">
+<meta property="og:description" content="位於高雄市新興區,傳承中式整復推拿三十年經驗,結合運動按摩、動作控制訓練,協助舒緩疲勞、提升運動表現。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://qsqingshan.com/">
+<meta property="og:locale" content="zh_TW">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500;700&family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
@@ -59,10 +65,10 @@
   .nav-links{display:flex; gap:32px; font-size:15px; font-weight:500;}
   .nav-links a:hover{color:var(--clay-dark);}
   .cta-btn{
-    background:var(--clay); color:#fff; padding:10px 22px; border-radius:999px;
+    background:var(--clay-dark); color:#fff; padding:10px 22px; border-radius:999px;
     font-weight:700; font-size:14px; white-space:nowrap;
   }
-  .cta-btn:hover{background:var(--clay-dark);}
+  .cta-btn:hover{background:#7E3F22;}
   .nav-toggle{display:none; font-size:24px; background:none; border:none; color:var(--pine); cursor:pointer;}
 
   /* HERO */
@@ -137,7 +143,7 @@
   .plan-price .unit{font-size:13px; color:var(--ink-soft); margin-left:4px;}
   .plan-list{list-style:none; margin-bottom:16px;}
   .plan-list li{padding-left:22px; position:relative; margin-bottom:8px; font-size:14px; color:var(--ink);}
-  .plan-list li::before{content:'✓'; position:absolute; left:0; color:var(--clay); font-weight:700;}
+  .plan-list li::before{content:'✓'; position:absolute; left:0; color:var(--clay-dark); font-weight:700;}
   .plan-note{margin-top:auto; padding-top:14px; border-top:1px dashed var(--line); font-size:12.5px; color:var(--ink-soft); line-height:1.6;}
   .plan-quote{font-size:14px; color:var(--ink-soft); line-height:1.9; margin-bottom:16px;}
   @media (max-width:860px){ .plan-grid{grid-template-columns:1fr;} }
@@ -197,6 +203,7 @@
     .thread::before{display:none;}
   }
 </style>
+<base target="_blank">
 </head>
 <body>
 
@@ -226,7 +233,7 @@
       </div>
     </div>
     <div class="hero-art">
-      <img src="images/treatment-scene.jpg" alt="青嵩工坊整復師為客戶進行運動按摩" loading="eager">
+      <img src="images/treatment-scene.jpg" alt="青嵩工坊整復師為客戶進行運動按摩" loading="eager" fetchpriority="high" decoding="async">
     </div>
   </div>
 </section>
@@ -260,9 +267,9 @@
       <h2>整復師推薦</h2>
     </div>
     <div class="team-grid" data-repeatable="team-card">
-      <div class="team-card"><img src="images/team-chenqingshan.jpg" alt="陳青杉"></div>
-      <div class="team-card"><img src="images/team-changjunwei.jpg" alt="常鈞崴"></div>
-      <div class="team-card"><img src="images/team-member3.jpg" alt="團隊成員"></div>
+      <div class="team-card"><img src="images/team-chenqingshan.jpg" alt="陳青杉" loading="lazy" decoding="async"></div>
+      <div class="team-card"><img src="images/team-changjunwei.jpg" alt="常鈞崴" loading="lazy" decoding="async"></div>
+      <div class="team-card"><img src="images/team-member3.jpg" alt="團隊成員" loading="lazy" decoding="async"></div>
       <!-- 要新增成員,複製一整段 <div class="team-card">...</div>,貼在這裡就會自動排進版面 -->
     </div>
   </div>
@@ -332,7 +339,7 @@
       </div>
     </div>
     <div style="margin-top:32px; border-radius:var(--radius); overflow:hidden; border:1px solid var(--line);">
-      <img src="images/movement-training.jpg" alt="青嵩工坊團隊進行動作評估訓練" style="width:100%; display:block;">
+      <img src="images/movement-training.jpg" alt="青嵩工坊團隊進行動作評估訓練" style="width:100%; display:block;" loading="lazy" decoding="async">
     </div>
   </div>
 </section>
